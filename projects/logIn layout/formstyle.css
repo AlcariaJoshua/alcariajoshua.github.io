@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.mainform-style{
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-column-gap: 20px;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.form-logIn , .form-registration{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(75, 75, 75);
+ 
+  
+}
+
+.form-logIn {
+    background-color: #323232;
+    color: white;
+    padding: 50px;
+   
+      
+}
+
+.form-registration{
+    background-color: #57c4e5;
+    color: black;
+    padding: 50px; 
+}
+
+.span1 {
+   align-self: flex-end;
+   padding-top: 10px;
+   font-size: 10px;
+}
+
+.span2 {
+    padding-top: 20px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.loginButton{
+    padding: 10px;
+    align-self: center;
+}
+
+.login , .registerBtn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px black;
+}
+
+.login:hover {
+    background-color: rgb(214, 214, 214);
+    
+}
+
+.form-logIn > input {
+    outline: none;
+    border: none;
+    background-color: transparent; 
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.form-registration > input {
+    outline: none;
+    border: none;
+    background-color: transparent; 
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+
+.creataccForm {
+    padding-top: 20px;
+    display: flex;
+    align-self: center;
+}
+
+.registerBtn:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+.span1:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.header {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.header > h1 {
+    padding: 20px;
+    
+}
+
+footer > p {
+    text-align: center;
+}
+
+.sectionTerms-condition{
+    position: absolute;
+    top: 30%;
+
+}
+
+.terms-condition{
+    background-color: whitesmoke;
+    width: 60%;
+    position: relative;
+    top: 30%;
+    left: 20%;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    border-radius: 20px;
+   
+}
+
+.closeBtn{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closeBtn > input{
+    margin-top: 8px;
+    padding: 10px;
+}
+
+.closeBtn > span{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.closeBtn > button{
+    margin-right: 30px;
+    padding: 8px;
+
+}
+
+.terms-condition > p {
+    margin: 0px;
+    padding: 60px;
+
+}
+
+
+
+

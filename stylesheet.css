@@ -1,0 +1,955 @@
+
+
+
+@media only screen and (min-width: 768px){
+    *{
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+
+    
+
+    body{
+    
+        margin: 0px;
+        padding: 0px;
+    }
+
+ 
+    nav{
+        margin: 0px;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .alink{
+        margin-right: 10%;
+    }
+
+    .logo{
+        margin-left: 10%;
+    }
+
+    .alink > a{
+        text-decoration: none;
+        color: #1a1b1f;
+        margin: 0px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 800;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+    .alink > .activeLink{
+        background-color: #1a1b1f;
+        color: #fff;
+    }
+
+    nav > .alink > a:hover {
+        cursor: pointer;
+    }
+
+    .logo > h2{
+        border-bottom: 2px #000 solid;
+        font-size: 15px;
+        color: #1a1b1f;
+        
+    } 
+
+    .logo > h2:hover{
+        cursor: pointer;
+    }
+
+    main{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        min-height: 95vh;
+        display: flex;
+        place-items: center;
+        margin-left: 15%;
+        margin-right: 15%;
+       
+
+    }
+
+    .title > h1 {
+        margin: 0px;
+        padding: 0px;
+        font-weight: 1000;
+        font-size: 30px;
+        animation: animate__flash;
+    }
+
+
+    .span1 , .span2{
+        font-weight: 500;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+
+    .container{
+        background-color: whitesmoke;
+        width: 100%;
+    
+    }
+
+    .skillContainer {
+        
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 10px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+    
+
+
+    .baseContainer{
+        background-color: #aeaeae;
+        height: 3vh;
+        width: 35vw;
+        margin-left: 20px;
+
+    }
+
+    .overlapContainer{
+        background-color: #1a1b1f;
+        width: 70%;
+        height: 3vh;
+        color: #fff;
+    }
+
+    .forHtml > .baseContainer > .overlapContainer{
+        display: flex;
+        place-items: center;
+        justify-content: flex-end;
+    }
+    .forHtml, .forCss, .forJs, .forBlender, .forWebflow{
+        display: flex;
+        place-items: center;
+        margin-bottom: 20px;
+    }
+
+    .forCss > .baseContainer >  .overlapContainer , .forBlender > .baseContainer >  .overlapContainer{
+        background-color: #1a1b1f;
+        width: 60%;
+        float: right;
+        display: flex;
+        place-items: center;
+        justify-content: flex-start;
+        height: 3vh; 
+    }
+
+    .forBlender > .baseContainer >  .overlapContainer{
+        background-color: #1a1b1f;
+        width: 50%;
+    }
+
+
+    .forJs > .baseContainer >  .overlapContainer , .forWebflow > .baseContainer > .overlapContainer{
+        background-color: #1a1b1f;
+        width: 40%;
+        height: 3vh;
+        display: flex;
+        place-items: center;
+        justify-content: flex-end;    
+    }
+
+    .forWebflow > .baseContainer > .overlapContainer{
+        background-color: #1a1b1f;
+        width: 30%;
+
+    }
+
+    .forCss, .forBlender{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+        
+    }
+
+    .forCss > img , .forBlender > img{
+        margin-left: 20px;
+    }
+
+
+    
+
+    .projectContainer{
+        height: 100vh;
+        background: linear-gradient(90deg, rgba(15,14,34,1) 16%, rgba(4,4,9,1) 52%, rgba(0,0,0,1) 87%);
+        padding-top: 30px;
+      
+      
+    }
+
+    .projectTitle > h2 {
+        color: #fff;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 13%;
+
+
+    }
+
+    .projects{
+        height: 80vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        place-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+       
+    }
+
+    .project1{
+        background-image: url(img/To-do-List-scaled.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+        
+        
+    }
+    .project1 > .a, .project2 > .a, .project3 > .a , .project4 > .a, .project5 > .a {
+        display: none;
+        position: absolute;
+        bottom: -10px;
+    }
+
+    .project1 > .a > a, .project2 > .a > a, .project3 > .a > a, .project4 > .a > a, .project5 > .a > a {
+        text-decoration: none;
+        color: #1a1b1f;
+        opacity: 1;
+    }
+
+   
+
+    .project2{
+        background-image: url(img/calcu.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+       
+    }
+
+    .project3{
+        background-image: url(img/login.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+    }
+
+    .project4{
+        background-image: url(img/countdown.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+    }
+
+    .project5{
+        background-image: url(img/gradeimg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+    }
+
+  
+
+    .project1 , .project2 , .project3 , .project4, .project5{
+        background-color: #fff; 
+        height: 30vh; 
+        width: 20vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 1px #aaaaaa;
+
+    }
+
+   
+   
+   
+
+    .project1:hover, .project2:hover ,.project3:hover , .project4:hover, .project5:hover{
+       
+        animation: shaking .8s infinite;
+    }
+
+    @keyframes shaking {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(5deg); }
+        50% { transform: rotate(0eg); }
+        75% { transform: rotate(-5deg); }
+        100% { transform: rotate(0deg); }
+      }
+      
+   
+    
+   
+
+    .contactForm{
+        margin: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 90vh;
+        display: flex;
+        place-content: center;
+        
+    }
+
+    .contact {
+        background-color: whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100vw;
+       
+    }
+
+    .contact > h2{
+        padding: 30px;
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+
+    .details{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-row-gap: 10px;
+        padding: 30px;
+    }
+
+    .forName , .forEmail , .forLabel{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        font-family: sans-serif, montserrat;
+        font-size: 13px;
+        font-weight: 550;
+    }
+
+    .forName > input , .forEmail > input , .forLabel > input{
+        height: 40px;
+        border-style: none;
+        padding-left: 10px;
+        color: whitesmoke;
+    }
+    .forName > label , .forEmail > label , .forLabel > label{
+        padding-bottom: 15px;
+    }
+
+    .btn {
+        grid-area: 3/1/4/2;
+    }
+
+    .btn > input {
+        padding: 15px;
+        width: 30%;
+        background-color: #1a1b1f;
+        color: white;
+        border-style: none;
+        font-size: 13px;
+    }
+
+    .iconsContainer{
+        margin-top: 20px;
+    }
+
+    .icons{
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .icons > a{
+        padding: 20px;
+        font-size: 20px;
+        color: black;
+    } 
+
+    .icons > a:hover{
+        cursor: pointer;
+    }
+
+    .aboutMe {
+        display: flex;
+        place-items: center;
+        place-content: center;
+        background-color: whitesmoke;
+        margin-left: 10%;
+        margin-right: 10%;
+
+      }
+
+      .image {
+        display: flex;
+        place-items: center;
+        place-content: center;
+        height: 50vh;
+        width: 50vw;
+      }
+
+      .image > img{
+        display: flex;
+        place-items: center;
+        place-content: center;
+        border-radius: 100px;
+        box-shadow: 0px 0px 10px 1px #1a1b1f;
+        height: 200px; 
+        width: 200px;
+      }
+
+      .text {
+        width: 100%;
+
+      }
+
+      .text > p{
+          margin: 0px;
+          padding: 0px;
+        display: flex;
+        place-items: center;
+        place-content: center;
+        word-break: break-all;
+        padding-right: 20px;
+      }
+
+
+    .aboutForm{
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        min-height: 100vh;
+        height: 100vh;
+    }
+
+   
+
+    .aboutformTitle {
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: whitesmoke;
+        padding-left: 20px;
+    }
+
+    hr.aboutmeBorder {
+       border: 2px solid #1a1b1f; 
+        padding: 0px;
+        margin: 0px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    
+  
+    .times > .fa-xmark{
+        display: none;
+    }
+    nav > .fa-bars{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    body{
+        margin: 30px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo > h2{
+        border-bottom: 2px black solid;
+        font-size: 20px;
+        font-weight: 800;
+    } 
+
+    .logo > h2:hover{
+        cursor: pointer;
+    }
+
+    
+
+    .fa-bars{
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        font-weight: 800;
+        display: block;
+    }
+    .fa-bars:hover{
+        cursor: pointer;
+    }
+
+
+    .alink{
+        display: none;
+        position: fixed;
+        background-color: whitesmoke;
+        height: 100%;
+        width: 40%;
+        margin: 0px;
+        padding: 0px;
+        z-index: 1;
+        top: 0px;
+        left: 0;
+        transition: 0.5s;
+    }
+
+    .alink > a , .fa-xmark{
+        text-decoration: none;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 550;
+        transition: 0.3s;
+    }
+
+    .times > .fa-xmark{
+        padding-right: 20px;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .fa-xmark:hover{
+        cursor: pointer;
+    }
+
+    
+    main {
+        display: flex;
+        place-items: center;
+        min-height: 80vh;
+    }
+
+    
+
+    .section1{
+        margin-bottom: 15%;
+    }
+
+   
+
+    .title  > h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin: 0px;
+    }
+
+    .title > span {
+        margin: 0px;
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    .skillContainer{
+        
+        position: relative;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        margin-bottom: 30%;
+    }
+
+    .skillSection {
+       display: flex;
+       justify-content: space-evenly;
+       height: 40vh;
+       width: 100%;
+       place-items: center;
+
+
+    }
+
+
+    .forHtml > img, .forCss > img, .forJs > img, .forBlender > img, .forWebflow > img{
+        transition: all .2s ease-in-out;
+    }
+
+    .forHtml > img:hover{
+        height: 80px;
+        width: 80px;
+        transform: scale(1.1);
+    }
+
+    .forCss > img:hover{
+        height: 80px;
+        width: 80px;
+        transform: scale(1.1);
+    }
+
+    .forJs > img:hover{
+        height: 80px;
+        width: 80px;
+        transform: scale(1.1);
+    }
+
+    .forBlender > img:hover{
+        height: 80px;
+        width: 80px;
+        transform: scale(1.1);
+    }
+
+    .forWebflow > img:hover{
+        height: 80px;
+        width: 80px;
+        transform: scale(1.1);
+    }
+
+    .forHtml > .baseContainer, .forCss > .baseContainer, .forJs > .baseContainer, .forBlender > .baseContainer, .forWebflow > .baseContainer {
+        display: none;
+    }
+
+    .projectContainer{
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        margin-top: 20%;
+        margin-bottom: 30%;
+        background: linear-gradient(90deg, rgba(15,14,34,1) 16%, rgba(4,4,9,1) 52%, rgba(0,0,0,1) 87%);
+    }
+
+    .projectTitle > h2{
+        padding-top: 30px;
+        padding-left: 30px;
+        color: #fff;
+    }
+
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        place-content: center;
+        place-items: center;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .project1{
+        height: 25vh;
+        width: 30vw;
+        background-image: url(img/To-do-List-scaled.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+        border-radius: 10px;
+      
+    }
+
+    .project2{
+     
+        height: 25vh;
+        width: 30vw;
+        background-image: url(img/calcu.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .project3{
+      
+        height: 25vh;
+        width: 30vw;
+        background-image: url(img/login.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .project4{
+        
+        height: 25vh;
+        width: 30vw;
+        background-image: url(img/countdown.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .project5{
+      
+        height: 25vh;
+        width: 30vw;
+        background-image: url(img/gradeimg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+        border-radius: 10px;
+    }
+
+
+
+
+    .project1 > .a > a, .project2 > .a > a, .project3 > .a > a, .project4 > .a > a, .project5 > .a > a {
+        text-decoration: none;
+        color: #000;
+        position: absolute;
+        bottom: -15px;
+        left: 40px;
+        margin: 0px;
+        font-size: 15px;
+
+       
+        
+    }
+
+    .project1 > .a, .project2 > .a, .project3 > .a , .project4 > .a, .project5 > .a {
+    display: none;
+       margin: 0px;
+       padding: 0px;
+    }
+
+
+    .project1:hover, .project2:hover ,.project3:hover , .project4:hover, .project5:hover{
+        animation: shaking .8s infinite;
+    }
+
+    @keyframes shaking {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(5deg); }
+        50% { transform: rotate(0eg); }
+        75% { transform: rotate(-5deg); }
+        100% { transform: rotate(0deg); }
+      }
+      
+
+     
+    .aboutForm{
+        background-color: whitesmoke;
+        margin: 0px;
+        padding: 0px;    
+        height: 100vh;
+        margin-bottom: 30%;
+    }
+
+    .aboutMe{
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        place-items: center;
+        margin-top: 20%;
+    }
+
+    .aboutMe > .image{
+        display: flex;
+        background-color: aqua;
+        place-items: center;
+         place-content: center;
+        height: 40vh;
+        width: 40vw;
+        border-radius: 200px;
+        box-shadow: 0px 0px 10px 1px #1a1b1f;
+
+    }
+    
+    .image > img{
+        height: 40vh;
+        width: 40vw;
+        border-radius: 200px;
+    }
+
+    .aboutformTitle{
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+
+    hr.aboutmeBorder {
+        border: 2px solid #1a1b1f; 
+         padding: 0px;
+         margin: 0px;
+         margin-left: 5%;
+         margin-right: 5%;
+     }
+
+
+     .aboutMe > .text > p{
+        margin: 0px;
+        padding: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        display: flex;
+        place-items: center;
+        place-content: center;
+        word-break: break-all;
+        padding-right: 20px;
+      }
+
+
+    
+
+
+
+    .contactForm{
+        min-height: 100vh;
+        place-content: center;
+    }
+
+    .contactForm{
+        margin: 0px;
+    }
+
+    .contact {
+        background-color: whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .contact > h2{
+        padding: 30px;
+        font-family: sans-serif;
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+
+    .details{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    .forName , .forEmail , .forLabel{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-family: sans-serif, montserrat;
+  
+    }
+
+    .forName > input , .forEmail > input , .forLabel > input{
+        height: 40px;
+        border-style: none;
+        padding-left: 10px;
+        color: whitesmoke;
+        width: 100%;
+        font-size: 10px;
+    }
+    .forName > label , .forEmail > label , .forLabel > label{
+        padding-bottom: 15px;
+        display: flex;
+        text-align: left;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .forLabel > textarea{
+        width: 100%;
+    }
+
+    .btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn > input {
+        padding: 10px;
+        width: 30%;
+        background-color: #1a1b1f;
+        color: white;
+        border-style: none;
+        font-size: 12px;
+    }
+
+    .iconsContainer{
+        margin-top: 20px;
+    }
+
+    .icons{
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .icons > a{
+        padding: 20px;
+        font-size: 17px;
+        color: black;
+    } 
+
+    .icons > a:hover{
+        cursor: pointer;
+    }
+
+    .text > p{
+        padding-top: 50px;
+    }
+
+    
+   .image{
+       display: none;
+   }
+
+
+
+
+}
+
+

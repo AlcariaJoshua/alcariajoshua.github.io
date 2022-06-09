@@ -1,0 +1,130 @@
+
+.gradeForm{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid-area: 1/1/2/2;
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.grades{
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    
+}
+
+.gradeForm > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 10px;
+}
+
+.gradeForm >div> input{
+    width: 100%;
+}
+
+.gradeForm > .btn {
+    margin-top: 10px;
+   margin-right: 20px;
+   display: flex;
+  justify-content: flex-end;
+
+}
+
+.btn > .ref , .input{
+    margin: 0px;
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.btn > .ref{
+    background-color: black;
+    color: white;
+}
+
+.btn > .input:hover{
+    background-color: black;
+    color: white;
+    transition: .8s;
+}
+.resultForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-area: 1/2/2/3;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 50px;
+    width: 82%;
+    height: auto;
+
+}
+
+.record {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+.resultForm > div {
+    padding-top: 10px;
+
+}
+.show{
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: black;
+    opacity: .8;
+}
+
+.show:hover{
+    background-color: black;
+    color: white;
+    transition: .8s;
+}
+
+.recordContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    min-height: 80vh;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.title{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#dataRecord{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+}
+
+
+
